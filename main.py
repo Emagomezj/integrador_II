@@ -1,7 +1,7 @@
 from utils.colors_fx import blue, green, red
 from utils.fx import clear, parse_input, exit_test, finish_indication
-from utils.Parte_B import par_impar, gz, bisiesto, producto_cartesiano
-from utils.Parte_A import ingresar_dnis, operaciones_conjuntos, frecuencia_digitos, suma_digitos, obtener_conjuntos
+from components.Parte_B import par_impar, gz, bisiesto, producto_cartesiano
+from components.Parte_A import ingresar_dnis, operaciones_conjuntos, frecuencia_digitos, suma_digitos, obtener_conjuntos
 from constants.constants import yrs
 
 def main():

@@ -20,7 +20,7 @@ def gz(yrs = []):
     clear()
     if len(yrs)==0: return
     yrs.sort()
-    if yrs[0] < 2000:
+    if yrs[0] >= 2000:
         green('Grupo Z')
     else:
         blue('Hay integrantes que nacieron antes del 2000')
