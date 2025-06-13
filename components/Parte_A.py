@@ -16,7 +16,7 @@ def ingresar_dnis():
         elif entrada.lower() == 'e':
             return 'e'
         else:
-            print("Por favor, ingrese solo números.")
+            print("Por favor, ingrese solo números enteros.")
     return dnis
 
 def obtener_conjuntos(dnis):
